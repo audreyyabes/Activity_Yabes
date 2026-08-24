@@ -1,6 +1,6 @@
 package com.joysistvi.stage1.activity;
 
-public class ActivityOne {
+public class ActivityOne_Yabes {
     public static void main(String[] args) {
         String fname = "Audrey";
         byte currentTemperature = -37;
