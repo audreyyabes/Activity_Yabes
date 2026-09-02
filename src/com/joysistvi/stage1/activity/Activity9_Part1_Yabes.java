@@ -3,7 +3,7 @@ package com.joysistvi.stage1.activity;
 import java.util.Scanner;
 
 
-public class Activity9_Yabes {
+public class Activity9_Part1_Yabes {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
