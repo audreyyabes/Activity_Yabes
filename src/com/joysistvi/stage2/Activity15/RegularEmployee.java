@@ -28,5 +28,12 @@ public abstract class RegularEmployee extends Employee implements Bonusable, Aud
     public String generateEmployeeId(){
         return "";
     }
+    @Override
+    public boolean isEligibleForBonus() {
+        return true;
+    }
+
+    public void logSalaryComputation(String employeeId) {
+    }
 
 }

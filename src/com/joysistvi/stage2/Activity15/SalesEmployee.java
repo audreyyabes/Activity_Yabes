@@ -7,12 +7,10 @@ public abstract class SalesEmployee extends Employee implements Bonusable {
         super(name, baseSalary);
         this.commission = commission;
     }
-
     @Override
     public double computeSalary() {
         return baseSalary + commission;
     }
-
     @Override
     public String getEmployeeType() {
         return "Sales Employee";
@@ -27,4 +25,11 @@ public abstract class SalesEmployee extends Employee implements Bonusable {
     public double computeDeductions() {
         return computeSalary() * 0.12;
     }
+    @Override
+    protected String generateEmployeeId() { return ""; }
+    @Override
+    public boolean isEligibleForBonus() {
+        return true;
+    }
+
 }
